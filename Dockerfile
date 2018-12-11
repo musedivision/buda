@@ -37,5 +37,5 @@ RUN curl -o ~/miniconda.sh -O  https://repo.continuum.io/miniconda/Miniconda3-la
 #RUN /opt/conda/bin/conda clean -ya
 #
 #ENV PATH /opt/conda/envs/fastai/bin:$PATH
-#ENV LD_LIBRARY_PATH /usr/local/nvidia/lib:/usr/local/nvidia/lib64
+ENV LD_LIBRARY_PATH /usr/local/nvidia/lib:/usr/local/nvidia/lib64
 #ENV USER fastai
